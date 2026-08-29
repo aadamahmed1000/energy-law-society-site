@@ -784,3 +784,13 @@ h3 {
 .person a.person__linkedin:hover {
   text-decoration: underline;
 }
+
+.person__photo {
+  flex: none;
+  width: 84px;
+  height: 84px;
+  border-radius: var(--radius-full);
+  object-fit: cover;
+  border: 2px solid var(--gold);
+  box-shadow: var(--shadow-sm);
+}

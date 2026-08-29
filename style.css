@@ -800,3 +800,8 @@ h3 {
   overflow-wrap: normal;
   font-size: clamp(0.78rem, 2.1vw, var(--text-sm));
 }
+
+.person h3 {
+  white-space: nowrap;
+  font-size: clamp(1rem, 3vw, var(--text-lg));
+}

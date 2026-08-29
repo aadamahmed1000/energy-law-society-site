@@ -794,3 +794,9 @@ h3 {
   border: 2px solid var(--gold);
   box-shadow: var(--shadow-sm);
 }
+
+.person a[href^="mailto:"] {
+  white-space: nowrap;
+  overflow-wrap: normal;
+  font-size: clamp(0.78rem, 2.1vw, var(--text-sm));
+}

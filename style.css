@@ -877,3 +877,25 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+
+/* People groups and exec roles */
+.people-group {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  color: var(--color-gold);
+  margin-bottom: var(--space-5);
+}
+.people-group--spaced {
+  margin-top: clamp(var(--space-8), 4vw, var(--space-12));
+}
+.people--execs {
+  max-width: none;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.person__roles {
+  display: block;
+  margin-top: var(--space-1);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}

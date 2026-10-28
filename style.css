@@ -149,6 +149,9 @@ h3 {
   margin-top: var(--space-4);
   color: var(--color-text-muted);
 }
+.section-head--spaced {
+  margin-top: clamp(var(--space-12), 6vw, var(--space-20));
+}
 
 /* ============ HEADER ============ */
 .header {
